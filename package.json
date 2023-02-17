@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rauljariasz.github.io/interactive-rating-component/",
   "name": "interactive-rating-component-main",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +10,7 @@
   "scripts": {
     "clean": "rm dist/bundle.js",
     "dev": "webpack serve --mode development --config webpack.config.dev.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --config webpack.config.js"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -6,7 +6,8 @@ const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'interactive-rating-component/bundle.js',
+    publicPath: '/interactive-rating-component/'
   },
   module: {
     rules: [
