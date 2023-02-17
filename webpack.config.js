@@ -45,8 +45,7 @@ const config = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: 'index.html',
-      favicon: '',
-      title: 'Interactive Rating Component'
+      favicon: './public/favicon-32x32.png',
     }),
     new MiniCssExtractPlugin()
   ]
